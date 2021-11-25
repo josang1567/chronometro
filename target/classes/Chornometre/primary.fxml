@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="293.0" prefWidth="390.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Chornometre.PrimaryController">
+   <children>
+      <Label fx:id="horas" alignment="CENTER" layoutY="9.0" prefHeight="226.0" prefWidth="126.0" text="00" AnchorPane.bottomAnchor="57.599999999999994" AnchorPane.leftAnchor="-2.8421709430404007E-14" AnchorPane.rightAnchor="263.6" AnchorPane.topAnchor="9.0">
+         <font>
+            <Font size="66.0" />
+         </font>
+      </Label>
+      <Label layoutX="101.0" layoutY="9.0" prefHeight="226.0" prefWidth="51.0" text=" : " AnchorPane.bottomAnchor="58.0" AnchorPane.leftAnchor="101.0" AnchorPane.rightAnchor="238.0" AnchorPane.topAnchor="9.0">
+         <font>
+            <Font size="66.0" />
+         </font>
+      </Label>
+      <Label fx:id="minutos" alignment="CENTER" layoutX="146.0" layoutY="8.0" prefHeight="228.0" prefWidth="97.0" text="00">
+         <font>
+            <Font size="66.0" />
+         </font>
+      </Label>
+      <Label layoutX="235.0" layoutY="9.0" prefHeight="226.0" prefWidth="58.0" text=" : " AnchorPane.bottomAnchor="58.0" AnchorPane.leftAnchor="235.0" AnchorPane.rightAnchor="97.0" AnchorPane.topAnchor="9.0">
+         <font>
+            <Font size="66.0" />
+         </font>
+      </Label>
+      <Label fx:id="segundos" alignment="CENTER" layoutX="276.0" layoutY="9.0" prefHeight="226.0" prefWidth="120.0" text="00" AnchorPane.bottomAnchor="58.0" AnchorPane.leftAnchor="276.0" AnchorPane.rightAnchor="-6.0" AnchorPane.topAnchor="9.0">
+         <font>
+            <Font size="66.0" />
+         </font>
+      </Label>
+      <Button fx:id="boton2" layoutX="171.0" layoutY="253.0" mnemonicParsing="false" onAction="#clic2" text="Pausa" />
+      <Button fx:id="boton3" disable="true" layoutX="318.0" layoutY="253.0" mnemonicParsing="false" onAction="#clic3" text="Reinicio" />
+      <Button fx:id="boton1" layoutX="14.0" layoutY="253.0" mnemonicParsing="false" onAction="#clic1" text="Inicia" />
+   </children>
+</AnchorPane>
