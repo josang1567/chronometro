@@ -3,31 +3,33 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="293.0" prefWidth="390.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Chornometre.PrimaryController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="293.0" prefWidth="390.0" style="-fx-background-image: url('file:src/main/resources/relojes.jpg');" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Chornometre.PrimaryController">
    <children>
-      <Label fx:id="horas" alignment="CENTER" layoutY="9.0" prefHeight="226.0" prefWidth="126.0" text="00" AnchorPane.bottomAnchor="57.599999999999994" AnchorPane.leftAnchor="-2.8421709430404007E-14" AnchorPane.rightAnchor="263.6" AnchorPane.topAnchor="9.0">
+      <Pane disable="true" layoutX="28.0" layoutY="57.0" prefHeight="127.0" prefWidth="342.0" style="-fx-background-color: grey; -fx-border-color: black; -fx-border-width: 8; -fx-background-radius: 54; -fx-border-radius: 54;" />
+      <Label fx:id="horas" alignment="CENTER" layoutX="29.0" layoutY="34.0" prefHeight="169.0" prefWidth="97.0" text="00" textFill="#cf3535">
          <font>
             <Font size="66.0" />
          </font>
       </Label>
-      <Label layoutX="101.0" layoutY="9.0" prefHeight="226.0" prefWidth="51.0" text=" : " AnchorPane.bottomAnchor="58.0" AnchorPane.leftAnchor="101.0" AnchorPane.rightAnchor="238.0" AnchorPane.topAnchor="9.0">
+      <Label layoutX="100.0" layoutY="12.0" prefHeight="206.0" prefWidth="51.0" text=" : " textFill="#cf3535">
          <font>
             <Font size="66.0" />
          </font>
       </Label>
-      <Label fx:id="minutos" alignment="CENTER" layoutX="146.0" layoutY="8.0" prefHeight="228.0" prefWidth="97.0" text="00">
+      <Label fx:id="minutos" alignment="CENTER" layoutX="140.0" layoutY="66.0" prefHeight="105.0" prefWidth="97.0" text="00" textFill="#cf3535">
          <font>
             <Font size="66.0" />
          </font>
       </Label>
-      <Label layoutX="235.0" layoutY="9.0" prefHeight="226.0" prefWidth="58.0" text=" : " AnchorPane.bottomAnchor="58.0" AnchorPane.leftAnchor="235.0" AnchorPane.rightAnchor="97.0" AnchorPane.topAnchor="9.0">
+      <Label layoutX="223.0" layoutY="66.0" prefHeight="105.0" prefWidth="58.0" text=" : " textFill="#cf3535">
          <font>
             <Font size="66.0" />
          </font>
       </Label>
-      <Label fx:id="segundos" alignment="CENTER" layoutX="276.0" layoutY="9.0" prefHeight="226.0" prefWidth="120.0" text="00" AnchorPane.bottomAnchor="58.0" AnchorPane.leftAnchor="276.0" AnchorPane.rightAnchor="-6.0" AnchorPane.topAnchor="9.0">
+      <Label fx:id="segundos" alignment="CENTER" layoutX="260.0" layoutY="32.0" prefHeight="175.0" prefWidth="116.0" text="00" textFill="#cf3535">
          <font>
             <Font size="66.0" />
          </font>
