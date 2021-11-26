@@ -117,7 +117,7 @@ public class PrimaryController {
 		if (boton2.getText().matches("Pausa")) {
 			boton2.setText("Reanudar");
 			boton1.setText("Detenido");
-	//		c1.getSuspendido().setSuspendido(true);
+		c1.getSuspendido().setSuspendido(true);
 		}
 		//esta el hilo pausado
 		if (boton2.getText().equals("Reanudar")) {
