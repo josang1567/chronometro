@@ -34,8 +34,8 @@
             <Font size="66.0" />
          </font>
       </Label>
-      <Button fx:id="boton2" layoutX="171.0" layoutY="253.0" mnemonicParsing="false" onAction="#clic2" text="Pausa" />
-      <Button fx:id="boton3" disable="true" layoutX="318.0" layoutY="253.0" mnemonicParsing="false" onAction="#clic3" text="Reinicio" />
-      <Button fx:id="boton1" layoutX="14.0" layoutY="253.0" mnemonicParsing="false" onAction="#clic1" text="Inicia" />
+      <Button fx:id="boton1" layoutX="20.0" layoutY="231.0" mnemonicParsing="false" onAction="#clic1" prefHeight="54.0" prefWidth="80.0" style="-fx-background-color: C3B9B9; -fx-background-radius: 15; -fx-border-color: black; -fx-border-radius: 15; -fx-border-width: 2;" text="Inicia" />
+      <Button fx:id="boton2" layoutX="159.0" layoutY="231.0" mnemonicParsing="false" onAction="#clic2" prefHeight="54.0" prefWidth="80.0" style="-fx-background-color: C3B9B9; -fx-background-radius: 15; -fx-border-color: black; -fx-border-radius: 15; -fx-border-width: 2;" text="Pausa" />
+      <Button fx:id="boton3" disable="true" layoutX="290.0" layoutY="231.0" mnemonicParsing="false" onAction="#clic3" prefHeight="54.0" prefWidth="80.0" style="-fx-background-color: C3B9B9; -fx-background-radius: 15; -fx-border-color: black; -fx-border-radius: 15; -fx-border-width: 2;" text="Reinicio" />
    </children>
 </AnchorPane>
